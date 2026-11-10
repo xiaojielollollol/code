@@ -1,6 +1,8 @@
-# FU6812 低压目标板源码修复包
+# FU6812 低压目标板源码修复包 V2（无 BOM）
 
-[下载完整工程 ZIP](./FU6812_LV_Speed_TSD105_FIXED.zip)
+[下载完整工程 ZIP](./FU6812_LV_Speed_TSD105_FIXED_v2_NoBOM.zip)
+
+V2已移除源码中的UTF-8 BOM，修复Keil C51的C100（0xEF、0xBB、0xBF）错误；旧版ZIP已撤下。
 
 解压到英文路径，例如 `E:\FU6812\LV_FIXED\`，打开 `KeilC51/FOC_Fortior.uvproj`，执行 Rebuild all target files。
 
